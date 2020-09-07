@@ -1,0 +1,7 @@
+[user]
+    email = EMAIL_HERE
+
+[includeIf "gitdir:~/Personal/"]
+    path = ~/Personal/.gitconfig
+[pull]
+	ff = only
